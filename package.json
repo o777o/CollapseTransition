@@ -1,0 +1,24 @@
+{
+  "name": "@daisy-wong/collapsetransition",
+  "version": "0.0.1",
+  "type": "module",
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
+  "main": "dist/collapsetransition.umd.cjs",
+  "module": "dist/collapsetransition.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.0",
+    "vite-plugin-libcss": "^1.1.1",
+    "vue": "^3.4.35",
+    "vue-tsc": "^2.0.29"
+  }
+}
