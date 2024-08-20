@@ -17,7 +17,8 @@ import CollapseTransition from '@daisy-wong/collapsetransition'
 // browser
 <script src="./dist/collapsetransition.umd.cjs"></script>
 <script>
-    Vue.component('CollapseTransition', CollapseTransition)
+    const app = createApp({})
+    app.component('collapse-transition', CollapseTransition)
 </script>
 ```
 
