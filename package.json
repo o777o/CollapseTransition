@@ -1,6 +1,6 @@
 {
   "name": "@daisy-wong/collapsetransition",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "files": [
     "dist",
@@ -20,5 +20,8 @@
     "vite-plugin-libcss": "^1.1.1",
     "vue": "^3.4.35",
     "vue-tsc": "^2.0.29"
+  },
+  "peerDependencies": {
+    "vue": "3.x"
   }
 }
